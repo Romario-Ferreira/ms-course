@@ -25,7 +25,7 @@ public class WorkerController {
 	
 	private static Logger logger = LoggerFactory.getLogger(WorkerRepository.class);
 	
-	@Value("${test.config}")
+	//@Value("${test.config}")
 	private String testConfig;
 	
 	@Autowired
